@@ -27,10 +27,10 @@
 ```mermaid
 sequenceDiagram
     participant User as ユーザー
-    participant App as app.py (司令塔)
-    participant Vision as vision.py (画像認識の専門家)
-    participant RAG as rag.py (情報検索の専門家)
-    participant CSV as gurbage.csv (ゴミの捨て方大事典)
+    participant App as app.py
+    participant Vision as vision.py
+    participant RAG as rag.py
+    participant CSV as gurbage.csv
 
     User->>App: ゴミの画像をアップロード
     App->>Vision: 「この画像は何？」と画像を渡して依頼
