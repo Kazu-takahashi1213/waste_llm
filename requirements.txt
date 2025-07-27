@@ -4,3 +4,10 @@ transformers
 pandas
 Pillow
 sentence-transformers
+langchain
+langchain-community
+langchain-huggingface
+beautifulsoup4
+faiss-cpu
+huggingface_hub
+unstructured

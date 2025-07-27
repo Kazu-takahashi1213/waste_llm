@@ -3,7 +3,7 @@ from PIL import Image
 from transformers import ViTForImageClassification, ViTImageProcessor
 
 # モデルとプロセッサをロード
-model_name = "google/vit-base-patch16-224"
+model_name = "microsoft/dit-base-finetuned-rvlcdip"
 processor = ViTImageProcessor.from_pretrained(model_name)
 model = ViTForImageClassification.from_pretrained(model_name)
 
